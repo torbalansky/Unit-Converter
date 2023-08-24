@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h1>Lipid Units Converter</h1>
+  <div class="select-container">
+    <label for="conversion-type">Select units:</label>
+    <select id="conversion-type">
+      <option value="mgToMmol">mg/dL to mmol/L</option>
+      <option value="mmolToMg">mmol/L to mg/dL</option>
+    </select>
+  </div>
+  <div class="input-container">
+    <label for="cholesterol-value" style="margin-right: 3px;">*Cholesterol:</label>
+    <input type="number" id="cholesterol-value" placeholder="Enter value">
+  </div>
+  <div class="input-container">
+    <label for="triglycerides-value">Triglycerides:</label>
+    <input type="number" id="triglycerides-value" placeholder="Enter value">
+  </div>
+  <div class="result">
+    <p>Result: <span id="converted-value">0</span></p>
+  </div>
+  <div class="button-container">
+    <button id="clear-btn">Clear</button>
+  </div>
+  <div class="info">
+    <p>* Conversion formula for total cholesterol, LDL, and HDL is the same.</p>
+  </div>
+</body>
+</html>

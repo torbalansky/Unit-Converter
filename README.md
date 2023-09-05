@@ -2,8 +2,6 @@
 
 ![Screenshot](images/convertor_screenshot.png)
 
-**Convert cholesterol (total, HDL, LDL) and triglyceride measurements between mmol/L to mg/dL and vice versa with ease!**
-
 ## Overview
 
 Lipid Units Converter is a simple and handy Google Chrome extension that helps you convert cholesterol and triglyceride measurements between mmol/L and mg/dL, and vice versa. Whether you're a researcher, or just curious about these units, this extension makes conversions a breeze.

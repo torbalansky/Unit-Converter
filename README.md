@@ -1,6 +1,6 @@
 # Lipid Units Converter
 
-![Screenshot](images/convertor_screenshot.png)
+![Screenshot](images/cholesterol_convert.jpg)
 
 ## Overview
 
